@@ -12,7 +12,8 @@ import java.net.URL;
 @SpringBootApplication
 public class WeatherForcastApplication {
     static String apiKey = "YourApiKey";
-    static String city = "Berlin";
+
+    static String city = "Berlin"; // your city you want toget Data
 
     public static void main(String[] args) {
         SpringApplication.run(WeatherForcastApplication.class, args);
